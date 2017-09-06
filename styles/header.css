@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf9f4
+}
+
+header .logo {
+  height: 80px;
+  order: 1;
+}
+
+header .nav {
+  order: 2;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+header .nav li {
+  order: 1;
+  margin: 10px;
+}
+
+header button {
+  order: 3;
+  margin-left: 20px;
+}
