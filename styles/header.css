@@ -13,8 +13,6 @@ header .logo {
 header .nav {
   order: 2;
   display: flex;
-  list-style: none;
-  padding: 0;
 }
 
 header .nav li {

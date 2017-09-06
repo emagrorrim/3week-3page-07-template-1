@@ -1,0 +1,20 @@
+.highlights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.highlights li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlights img {
+  height: 300px;
+}
+
+.highlights .tutors img {
+  order: 2;
+}
