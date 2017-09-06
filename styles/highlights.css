@@ -9,12 +9,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .highlights img {
   height: 300px;
 }
 
+.highlights .students {
+  background-color: #93cfb2
+}
+
+.highlights .tutors {
+  background-color: #ffcb68
+}
+
 .highlights .tutors img {
   order: 2;
+}
+
+.highlights .partners {
+  background-color: #80a9cb
 }
