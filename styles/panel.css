@@ -1,0 +1,12 @@
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  background: linear-gradient(rgba(80, 80, 80, 0.5), rgba(80, 80, 80, 0.5)), url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+}
