@@ -214,7 +214,8 @@ header button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 700px;
+
+  background-color: #fcf9f4;
 }
 
 .progress ul {
@@ -236,6 +237,31 @@ header button {
   border: 1px solid #ebebe4;
 }
 
+.progress h2 {
+  margin: 40px 0;
+}
+
+.progress ul li h3 {
+  font-size: 80px;
+  margin: 5px;
+}
+
+.progress ul li p {
+  font-size: 16px;
+}
+
+.progress ul .hours {
+  color: #91d0b1;
+}
+
+.progress ul .sessions {
+  color: #ffcd62;
+}
+
+.progress ul .volunteers {
+  color: #80a8cc;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -247,5 +273,5 @@ footer {
 
 footer p {
   margin: 0;
-  color: white;
+  color: #d4d2d0;
 }
