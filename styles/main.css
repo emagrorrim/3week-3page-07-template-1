@@ -1,0 +1,122 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf9f4
+}
+
+header .logo {
+  height: 80px;
+  order: 1;
+}
+
+header .nav {
+  order: 2;
+  display: flex;
+}
+
+header .nav li {
+  order: 1;
+  margin: 10px;
+}
+
+header button {
+  order: 3;
+  margin-left: 20px;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  background: linear-gradient(rgba(80, 80, 80, 0.5), rgba(80, 80, 80, 0.5)), url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.highlights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.highlights li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.highlights img {
+  height: 300px;
+}
+
+.highlights .students {
+  background-color: #93cfb2
+}
+
+.highlights .tutors {
+  background-color: #ffcb68
+}
+
+.highlights .tutors img {
+  order: 2;
+}
+
+.highlights .partners {
+  background-color: #80a9cb
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+}
+
+.progress ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.progress ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 40px;
+  height: 200px;
+  width: 15%;
+  border: 1px solid #ebebe4;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #4d4e56;
+  height: 80px; 
+}
+
+footer p {
+  margin: 0;
+  color: white;
+}
