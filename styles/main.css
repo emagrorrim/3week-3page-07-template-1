@@ -1,1 +1,277 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  height: 100px;
+
+  background-color: #fcf9f4
+}
+
+header .logo {
+  height: 70%;
+  order: 1;
+}
+
+header .nav {
+  order: 2;
+  display: flex;
+
+  height: 100%;
+  margin: 0 30px;
+
+  border-style: solid;
+  border-color: #eae7e2;
+  border-width: 0 1px;
+}
+
+header .nav li {
+  order: 1;
+
+  display: flex;
+  align-items: center;
+
+  margin-right: 42px;
+}
+
+header .nav li:first-child {
+  margin-left: 42px;
+}
+
+header .nav li a {
+  color: #9f9fa4;
+  text-decoration: none
+}
+
+header button {
+  order: 3;
+  height: 40%;
+  width: 150px;
+
+  font-size: 17px;
+
+  color: #4d4e59;
+  background-color: rgba(80, 80, 80, 0);
+
+  border: 1px solid #dad7d2;
+  border-radius: 10px;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 794px;
+
+  background: linear-gradient(rgba(150, 150, 150, 0.5), rgba(150, 150, 150, 0.5)), url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.panel button {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: white;
+
+  width: 270px;
+  height: 60px;
+  margin: 0 15px;
+
+  border-radius: 10px;
+}
+
+.panel h1 {
+  color: white;
+  font-size: 70px;
+}
+
+#student_btn {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+#tutor_btn {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+.mission h2 {
+  color: #4d4e59;
+}
+
+.mission p {
+  color: #636471;
+}
+
+.mission button {
+  background-color: #ffcb62;
+  color: #636471;
+}
+
+.section {
+  height: 600px;
+}
+
+.section h2 {
+  font-size: 70px;
+  margin: 0;
+}
+
+.section p {
+  max-width: 950px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.section button {
+  width: 270px;
+  height: 60px;
+
+  font-size: 22px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.highlights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.highlights li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 20%;
+}
+
+.highlights img {
+  height: 300px;
+}
+
+.highlights .section .content {
+  margin-left: 150px;
+}
+
+.highlights .section .content p {
+  text-align: left;
+  max-width: 520px;
+}
+
+.highlights .section .content button {
+  color: white;
+}
+
+.highlights .students {
+  background-color: #93cfb2
+}
+
+.highlights .students .content button {
+  background-color: #7eb59b;
+}
+
+.highlights .tutors {
+  background-color: #ffcb68
+}
+
+.highlights .tutors .content {
+  margin-right: 150px;
+}
+
+.highlights .tutors .content button {
+  background-color: #e9bb63;
+}
+
+.highlights .tutors img {
+  order: 2;
+}
+
+.highlights .partners {
+  background-color: #80a9cb
+}
+
+.highlights .partners .content button {
+  background-color: #6e91b0;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #fcf9f4;
+}
+
+.progress ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.progress ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 40px;
+  height: 200px;
+  width: 15%;
+  border: 1px solid #ebebe4;
+}
+
+.progress h2 {
+  margin: 40px 0;
+}
+
+.progress ul li h3 {
+  font-size: 80px;
+  margin: 5px;
+}
+
+.progress ul li p {
+  font-size: 16px;
+}
+
+.progress ul .hours {
+  color: #91d0b1;
+}
+
+.progress ul .sessions {
+  color: #ffcd62;
+}
+
+.progress ul .volunteers {
+  color: #80a8cc;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #4d4e56;
+  height: 80px; 
+}
+
+footer p {
+  margin: 0;
+  color: #d4d2d0;
+}
