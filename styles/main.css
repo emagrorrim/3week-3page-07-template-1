@@ -98,7 +98,7 @@ header button {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.section {
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,16 +106,31 @@ header button {
   height: 600px;
 }
 
+.mission h2 {
+  color: #4d4e59;
+}
+
+.mission p {
+  color: #636471;
+}
+
+.mission button {
+  background-color: #ffcb62;
+  color: #636471;
+}
+
+.section {
+  height: 600px;
+}
+
 .section h2 {
   font-size: 70px;
-  color: #4d4e59;
   margin: 0;
 }
 
 .section p {
-  max-width: 1024px;
-  font-size: 30px;
-  color: #636471;
+  max-width: 950px;
+  font-size: 25px;
   font-weight: 300;
 }
 
@@ -125,7 +140,6 @@ header button {
 
   font-size: 22px;
 
-  background-color: #ffcb62;
   border: none;
   border-radius: 10px;
 }
@@ -135,6 +149,7 @@ header button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: white;
 }
 
 .highlights li {
@@ -142,18 +157,44 @@ header button {
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 0 20%;
 }
 
 .highlights img {
   height: 300px;
 }
 
+.highlights .section .content {
+  margin-left: 150px;
+}
+
+.highlights .section .content p {
+  text-align: left;
+  max-width: 520px;
+}
+
+.highlights .section .content button {
+  color: white;
+}
+
 .highlights .students {
   background-color: #93cfb2
 }
 
+.highlights .students .content button {
+  background-color: #7eb59b;
+}
+
 .highlights .tutors {
   background-color: #ffcb68
+}
+
+.highlights .tutors .content {
+  margin-right: 150px;
+}
+
+.highlights .tutors .content button {
+  background-color: #e9bb63;
 }
 
 .highlights .tutors img {
@@ -162,6 +203,10 @@ header button {
 
 .highlights .partners {
   background-color: #80a9cb
+}
+
+.highlights .partners .content button {
+  background-color: #6e91b0;
 }
 
 .progress {
